@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="100dp"
+    tools:context=".UC4">
+
+    <TableRow>
+        <Button
+            android:layout_width="180dp"
+            android:text="@string/Btn1"
+            android:textColor="#202020"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:layout_width="180dp"
+            android:text="@string/Btn2"
+            android:textAllCaps="false"/>
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:text="@string/Btn3"
+            android:textColor="#202020"
+            android:layout_weight="1"
+            android:layout_marginTop="30dp"
+            android:textAllCaps="false"/>
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:layout_marginTop="30dp"
+            android:text="@string/Btn4"
+            android:textColor="#202020"
+            android:textAllCaps="false"/>
+    </TableRow>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <Button
+            android:id="@+id/Tl_R"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="0dp"
+            android:text="@string/Rt" />
+    </RelativeLayout>
+</TableLayout>

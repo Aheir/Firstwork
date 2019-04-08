@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Experiment 2</string>
+    <string name="Btn1">第一个Button</string>
+    <string name="Btn2">第二个Button</string>
+    <string name="Btn3">第三个Button</string>
+    <string name="Btn4">第四个Button</string>
+    <string name="Rt">返回</string>
+</resources>
